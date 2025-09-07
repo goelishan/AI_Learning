@@ -10,5 +10,10 @@
 # for i in range(10):
 #     print("Ishan Goel")
 
-text = "Pallindrome"
-print(text[::-1])
+# text = "Pallindrome"
+# print(text[::-1])
+
+def greet(name):
+    print("Hello", name)
+
+print(greet("Ishan"))
