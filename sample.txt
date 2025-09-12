@@ -1,0 +1,3 @@
+Python is amazing!
+Python makes file handling powerful.
+File handling is simple with Python.
