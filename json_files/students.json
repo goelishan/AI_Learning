@@ -1,0 +1,29 @@
+{
+    "students": [
+        {
+            "name": "Ishan",
+            "age": 27,
+            "grade": "A"
+        },
+        {
+            "name": "Aarav",
+            "age": 25,
+            "grade": "B"
+        },
+        {
+            "name": "Riya",
+            "age": 23,
+            "grade": "A"
+        },
+        {
+            "name": "Meera",
+            "age": 26,
+            "grade": "C"
+        },
+        {
+            "name": "Meera",
+            "age": 26,
+            "grade": "C"
+        }
+    ]
+}
