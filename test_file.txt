@@ -1,0 +1,9 @@
+Hello, this is a test file.
+Contact us at user123@gmail.com for more info.
+Emergency phone number: 9876543210
+Secondary email: first.last@yahoo.in
+Invalid email: user@@gmail.com
+Call +919876543210 for support.
+Random text here.
+Another invalid phone: 12345
+Reach out to hello_world-99@outlook.org
