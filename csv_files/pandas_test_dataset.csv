@@ -1,0 +1,13 @@
+OrderID,Customer,Product,Quantity,UnitPrice,City
+101,Alice,Watch,1,5000,Delhi
+102,Bob,Ring,2,12000,Mumbai
+103,Charlie,Necklace,1,15000,Bangalore
+104,Alice,Ring,3,12000,Delhi
+105,Bob,Watch,2,5000,Mumbai
+106,David,Bracelet,1,8000,Chennai
+107,Eva,Necklace,,15000,Bangalore
+108,Frank,Ring,2,12000,
+109,Gina,Watch,1,5000,Delhi
+110,Helen,Bracelet,1,8000,Chennai
+111,Bob,Ring,2,12000,Mumbai
+112,Ivan,Necklace,1,15000,Bangalore
