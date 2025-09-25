@@ -56,7 +56,7 @@ print('\n'+'-'*50+'\n')
 # extract table data
 
 table=soup.select_one('table')
-rows=table.select('tr')
+rows=table.select('tr') # type: ignore
 
 print('Table data:')
 for row in rows:
