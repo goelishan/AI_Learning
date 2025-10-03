@@ -66,5 +66,7 @@ expression = {
     ]
 }
 
+# 2+3+(2*5)+(3^2)+(20-5)
+
 result = evaluate_expression(expression)
 print("Result:", result)

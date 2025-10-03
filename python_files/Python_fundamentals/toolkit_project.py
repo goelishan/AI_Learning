@@ -45,6 +45,6 @@ def math_toolkit(*args,**kwargs):
         power_func(kwargs['base'],exp)
 
 
-math_toolkit(2,3,4,base=5)
+math_toolkit(2,3,4,base=5,exponent=3)
 
 

@@ -1,0 +1,9 @@
+CustID,Name,Age,Gender,Feedback,Rating
+101,Alice,25,Female,Loved the product!,5
+102,Bob,,Male,,4
+103,Charlie,30,Male,Good but delivery late,
+104,,28,Female,Excellent,5
+105,Eva,,Female,, 
+106,Frank,35,,Average,3
+107,Grace,29,Female,,2
+108,Hank,,,,
