@@ -6,21 +6,21 @@ df=pd.read_csv('C:/Users/igoel/Desktop/AI_Learning/practise_code/csv_files/surve
 print(df)
 print(df.isnull().sum())
 
-# drop useless rows
+# Drop useless rows
 df=df.dropna(how='all')
 print(df.isnull().sum())
 
 # ---------------------------fill missing values-----------------------------------------
-# mean age 
+# Mean age 
 df['Age']=df['Age'].fillna(df['Age'].mean())
 
-# name/gender with unknown
+# Name/gender with unknown
 df[['Name','Gender']]=df[['Name','Gender']].fillna('Unknown')
 
-# missing feedback with 'No feedback'
+# Missing feedback with 'No feedback'
 df['Feedback']=df['Feedback'].fillna('No feedback')
 
-# missing rating with median value
+# Missing rating with median value
 df.replace({'Rating':np.nan},inplace=True)
 df['Rating']=pd.to_numeric(df['Rating'],errors='coerce')
 df['Rating']=df['Rating'].fillna(df['Rating'].median())
@@ -42,12 +42,13 @@ print(df)
 avg_rating=df.groupby('Gender')['Rating'].mean()
 print(avg_rating)
 
-# most common feedback words
+# Most common feedback words
 all_words=df['Feedback'].str.cat(sep=' ').split()
 word_count=pd.Series(all_words).value_counts()
 print(word_count.head(5))
 
-# age distribution
+# Age distribution
 df['AgeGroup']=pd.cut(df['Age'],bins=[0,20,30,40,50],labels=['<20','20-30','30-40','40-50'])
 age_dist=df.groupby('AgeGroup')['CustID'].count()
 print(age_dist)
+

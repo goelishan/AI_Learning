@@ -1,0 +1,8 @@
+EmpID,Name,DeptID,Age,Gender,Salary
+101,Alice,10,25,F,50000
+102,Bob,20,30,M,60000
+103,Charlie,10,28,M,55000
+104,David,30,35,M,45000
+105,Eva,20,32,F,70000
+106,Frank,10,40,M,80000
+107,Grace,30,29,F,0
